@@ -15,8 +15,8 @@ namespace BildIntegration
 		{
 			string gdir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
 			gdir += @"\ressource\" + img_name;
-			int res_x = 192;
-			int res_y = 108;
+			int res_x = 190;
+			int res_y = 105;
 
 	
 			Bitmap image = new Bitmap(new Bitmap(gdir), new Size(res_x, res_y));
